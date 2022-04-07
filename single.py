@@ -59,4 +59,4 @@ print('Test accuracy:', score[1])
 Logger.current_logger().report_scalar(title='evaluate', series='score', value=score[0], iteration=args['epochs'])
 Logger.current_logger().report_scalar(title='evaluate', series='accuracy', value=score[1], iteration=args['epochs'])
 
-model.save("./modlel/")
+model.save("./model/")
